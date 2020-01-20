@@ -6,7 +6,9 @@ This is a patch to ngx_http_log_module, that provides ability to collect logs be
 
 The option "early" added to log configuration:
 
-  access_log /var/log/nginx-access.log early;
+```
+access_log /var/log/nginx-access.log early;
+```
 
 # Known issues
 
