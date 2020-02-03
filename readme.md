@@ -12,4 +12,4 @@ access_log /var/log/nginx-access.log early;
 
 # Known issues
 
-Early log handler works in NGX_HTTP_POST_READ_PHASE phase in chain with ngx_http_realip_module, and which runs first is generraly UB.
+Early log handler works in NGX_HTTP_POST_READ_PHASE phase in chain with ngx_http_realip_module, and which runs first is generally UB.
